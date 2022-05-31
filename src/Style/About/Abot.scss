@@ -1,0 +1,27 @@
+@import '../Globl/variable';
+
+.Wrapperr{
+    display: flex;
+    align-items: center;
+    column-gap: 27px;
+    justify-content: center;
+}
+.Namber{
+    font-style: normal;
+font-weight: 900;
+font-size: 50px;
+font-family: MontserratBolt; 
+}
+@media (max-width: 992px) { 
+    .Wrapperr{
+        display: grid;
+        grid-template-columns: auto auto;
+    }
+}
+@media (max-width: 420px) { 
+    .Wrapperr{
+        display: grid;
+        grid-template-columns: auto ;
+        text-align: center;
+    }
+}

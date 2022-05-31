@@ -1,0 +1,20 @@
+@import '../Globl/variable';
+.d_Text{
+    font-style: normal;
+font-weight: 400;
+font-size: 12px;
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+
+}
+.d_link{
+    text-decoration: none;
+    color: $color_text;
+    font-size: 15px;
+    font-weight: 900;
+    &:hover{
+        color: #000;
+    }
+}

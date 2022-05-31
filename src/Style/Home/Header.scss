@@ -1,0 +1,90 @@
+@import '../Globl/variable';
+
+.header{
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+    z-index: 1;
+
+
+.nav-link{
+ color: $color_text;
+font-weight: 600;
+font-size: 13px;
+}
+
+}
+.searchForm{
+    max-width: 200px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid  $color_border;
+    input{
+        border: none;
+        background: transparent; 
+        font-size: 12px;
+    }
+  
+    input:focus{
+        box-shadow: none;   
+        background: transparent;  
+    }
+}
+.heartCart{
+gap: 10px;  
+i{
+    
+    color: $color_HeartCart;
+    font-size: 40px;
+
+}
+}
+.dropdown {
+   
+    button{
+border: none;
+outline: none;
+background-color: transparent;
+        font-size: 14px;
+            }
+}
+.dropdown-menu{
+    font-weight: 400;
+    font-size: 14px;
+    background-color: $color_bg;
+}
+.HeaderBg{
+    background-color: $color_white;
+    box-shadow: 0px 15px 10px -15px #000;   
+  }
+.RightModal{
+    position: fixed;
+    right: -100%;
+    z-index: 2;
+    top: 0;  
+    height: 100%;
+  background: rgba(36, 20, 0, 0.9);
+  text-align: end;
+  max-width: 300px;
+  transition: all 0.3s ease-in;
+}
+.ModalMenu{
+    margin-left: auto;
+    padding: 43px 15px;
+    display: grid;
+    gap: 10px;
+   
+}
+.navbarModal{
+    li{
+        margin-bottom: 10px;
+    }
+.nav-link{
+        color: $color_white;
+    }
+}
+.modalOpen{
+    right: 0;
+    
+}

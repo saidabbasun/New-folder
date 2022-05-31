@@ -1,0 +1,51 @@
+@import './variable';
+@import './font-face.scss';
+@import './Media.scss';
+
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: $color_text  ;
+    list-style: none;
+}
+body{
+    font-family: Montserrat;
+    background: $color_bg;
+    color: $color_text;
+}
+
+textarea:hover, 
+input:hover, 
+textarea:active, 
+input:active, 
+textarea:focus, 
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn.active
+{
+  
+    outline:0px !important;
+    -webkit-appearance:none;
+    box-shadow: none !important;
+}
+.container{
+    width: 80vw;
+    margin: 0 auto;
+}
+button,
+a,
+i{
+    cursor: pointer;
+}
+li{
+    .nav-link:hover{
+
+        color: $color_HeartCart;
+    }
+    
+}
+

@@ -1,0 +1,87 @@
+@import '../Globl/variable';
+
+    .cardWrapper{
+     padding: 50px   0 ; 
+
+    }
+  
+    .caruselContainer{
+      display: flex;
+      .nav-link{
+        font-size: 12px;
+      } 
+      .navbar-nav{
+        display: flex;      }
+    }
+    .Catagorycard{
+      
+          margin: 20px 0px 20px 40px;                                                                                                                                                                                                                                                                                                                                         
+    max-width: 184px;
+    box-shadow: 0px 4px 15px rgba(0, 0, 0, 0.25);
+}
+.card-title{
+    font-family: MontserratBolt;    
+    font-weight: 700;
+font-size: 18px;
+}
+.card-text{
+    font-weight: 700;
+font-size: 12px;
+}
+.bookName{
+    font-family: MontserratBolt;
+    font-style: normal;
+font-weight: 700;
+font-size: 12px;
+}
+.btn{
+    font-family: MontserratBolt;
+    background-color:$color_HeartCart ;
+    box-shadow: 0px 3px 8px rgba(225, 106, 0, 0.19);
+    color: $color_white;
+    font-weight: 900;
+font-size: 12px;
+text-transform: uppercase;
+}
+i{
+    font-size: 20px;
+    color: $color_HeartCart;
+}
+
+.scrollInput{
+  margin-top: 47px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+input[type="range"] {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  background: #D7D7D7;
+  border-radius: 3px;
+  height: 6px;
+  width: 300px;
+  cursor: pointer;
+}
+  input[type="range"]::-webkit-slider-thumb {
+    appearance: none;
+    -webkit-appearance: none;
+    background-color:$color_text;
+    background-image: url("data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2212%22%20height%3D%228%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M8%20.5v7L12%204zM0%204l4%203.5v-7z%22%20fill%3D%22%23FFFFFF%22%20fill-rule%3D%22nonzero%22%2F%3E%3C%2Fsvg%3E");
+    background-position: center;
+    background-repeat: no-repeat;
+    border: 0;
+    border-radius: 50%;
+    cursor: pointer;
+    height: 36px;
+    width: 36px;
+  }
+
+  
+  input[type="range"]::-moz-focus-outer {
+    border: 0;
+  }
+  
+

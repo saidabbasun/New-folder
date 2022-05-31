@@ -1,0 +1,26 @@
+@import '../Globl/variable';
+.Aktsiya{
+
+   display: flex;
+ align-items: center;
+   row-gap: 200px;
+   padding-top: 161px;  
+   padding-bottom:80px ;
+   
+.card{
+    background-color: transparent;
+   
+    border: none;
+
+}
+.card-title{
+    font-family: MontserratBolt;
+    font-weight: 900;
+font-size: 36px;
+font-style: normal;
+}
+    
+}
+.HomeSlider{
+    max-width: 600px;
+}

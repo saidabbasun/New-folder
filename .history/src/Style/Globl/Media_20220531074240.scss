@@ -1,0 +1,49 @@
+@import './variable';
+
+
+// Tablet media query
+
+@media (max-width: 992px) { 
+ 
+ 
+    .navbarHeader {
+    display: none;
+ 
+    }
+    .Aktsiya{
+        flex-direction: column;
+        text-align: center;
+      
+            gap: 50px;
+    }
+
+    .caruselContainer{
+        width: 88vw;
+    }
+
+    .Catagorycard{
+        margin: 20px 0px 20px 15px; 
+    }
+   
+     
+   
+   }
+   @media (max-width: 420px){
+       #Aktsiya{
+           .card-title{
+               font-size: 30px;
+           }
+       }
+       .caruselContainer{
+           display: block;
+       }
+       .Catagorycard{
+        margin: 20px 0px 20px 45px;  
+        max-width: 220px;
+       }
+       .HomeSlider{
+           width: 320px;
+       }
+       
+   }
+
