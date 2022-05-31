@@ -62,7 +62,7 @@ export default class Carusel extends Component {
           {
             breakpoint: 480,
             settings: {
-              slidesToShow: ,
+              slidesToShow: 1,
               slidesToScroll: 1,
              
             },
