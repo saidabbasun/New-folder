@@ -25,7 +25,7 @@ const Header = () => {
 
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset >=10)
+        setSmall(window.pageYOffset >=100)
       );
     }
   });

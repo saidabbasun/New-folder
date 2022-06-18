@@ -12,7 +12,8 @@ function App() {
   return (
     <div>
       <Router>
-    <Home/>
+        
+    <Home />
     <Catagory/>
     <Aktsiya/>
     <Catalog/>

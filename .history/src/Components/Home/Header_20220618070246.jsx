@@ -14,7 +14,7 @@ const Header = () => {
    
     
       
-    const    NavLink = document.querySelectorAll(".navLink");
+    const    NavLink = document.querySelectorAll(".nav-link");
   
       function linkAction() {
         setOpen(!open)  
@@ -25,7 +25,7 @@ const Header = () => {
 
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset >=10)
+        setSmall(window.pageYOffset >=100)
       );
     }
   });

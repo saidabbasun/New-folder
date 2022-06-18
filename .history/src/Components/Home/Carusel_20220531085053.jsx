@@ -81,7 +81,7 @@ export default class Carusel extends Component {
               {...settings}
             >
          {listItem.map((data,ind)=>(
-                <div key={ind} className="card Catagorycard">
+                <div key={ind} class="card Catagorycard">
 
                 <img  className="card-img-top p-4"  src={data.img} alt="CardImage" />
 
@@ -90,7 +90,7 @@ export default class Carusel extends Component {
                   <p className="bookName mb-0 fw-bold"> {data.bookName}</p>
                   <p className="card-text ">{data.text} </p>
                   <div className="d-flex align-items-center">
-                    <Link  to='/' className="btn  rounded m-2">
+                    <Link  to='/' lassName="btn  rounded m-2">
                       В корзину
                     </Link>
                     <i className="uil uil-heart"></i>

@@ -14,7 +14,7 @@ const Header = () => {
    
     
       
-    const    NavLink = document.querySelectorAll(".navLink");
+    const    NavLink = document.querySelectorAll(".nav-link");
   
       function linkAction() {
         setOpen(!open)  
@@ -25,7 +25,7 @@ const Header = () => {
 
     if (typeof window !== "undefined") {
       window.addEventListener("scroll", () =>
-        setSmall(window.pageYOffset >=10)
+        setSmall(window.pageYOffset >=100)
       );
     }
   });
@@ -92,19 +92,19 @@ const Header = () => {
    
     <ul className="navbar-nav navbarModal">
     <li className="nav-item active">
-        <Link className="nav-link navLink" to="/Aktsiya">Акции </Link>
+        <Link className="nav-link naLvink" to="/Aktsiya">Акции </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navLink" to="/Katalog">Каталлог</Link>
+        <Link className="nav-link naLvink" to="/Katalog">Каталлог</Link>
       </li>
       <li className="nav-item ">
-        <Link className="nav-link navLink" to="/Dastafka">Доставка </Link>
+        <Link className="nav-link naLvink" to="/Dastafka">Доставка </Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navLink" to="/About">О магазине</Link>
+        <Link className="nav-link naLvink" to="/About">О магазине</Link>
       </li>
       <li className="nav-item">
-        <Link className="nav-link navLink" to="/Blog">Блог</Link>
+        <Link className="nav-link naLvink" to="/Blog">Блог</Link>
       </li>
       </ul>
   </div>

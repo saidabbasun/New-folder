@@ -90,7 +90,7 @@ export default class Carusel extends Component {
                   <p className="bookName mb-0 fw-bold"> {data.bookName}</p>
                   <p className="card-text ">{data.text} </p>
                   <div className="d-flex align-items-center">
-                    <Link  to='/' className="btn  rounded m-2">
+                    <Link  to='/' lassName="btn  rounded m-2">
                       В корзину
                     </Link>
                     <i className="uil uil-heart"></i>

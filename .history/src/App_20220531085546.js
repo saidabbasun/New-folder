@@ -7,11 +7,11 @@ import About from "./Components/About/About.jsx";
 import Dastafka from "./Components/Dastafka/Dastafka.jsx";
 import Blog from "./Components/Blog/Blog.jsx";
 import Footer from "./Components/Footer/Footer.jsx";
-import {BrowserRouter as Router } from "react-router-dom";
+import { Router } from "react-router-dom";
 function App() {
   return (
     <div>
-      <Router>
+      <Router
     <Home/>
     <Catagory/>
     <Aktsiya/>
@@ -20,7 +20,6 @@ function App() {
     <Dastafka/>
     <Blog/>
     <Footer/>
-    </Router>
     </div>
   );
 }
